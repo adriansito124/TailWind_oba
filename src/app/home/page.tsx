@@ -13,7 +13,7 @@ export default function Home() {
     {
         main: "h-screen bg-black flex justify-center items-center",
         tela: "flex w-full flex-row justify-around items-center flex-wrap",
-        card: "w-full max-w-80 min-w-52 border rounded-2xl mt-3",
+        card: "w-full max-w-80 min-w-52 border rounded-2xl mt-3 hover:scale-110",
         imagem: "border rounded-t-2xl",
         texto: "bg-white flex-col flex items-center p-8 gap-1 text-center",
     }
@@ -30,7 +30,7 @@ export default function Home() {
               <p className="mt-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dignissim felis at nisi facilisis, dictum.</p>
           </div>
           <div>
-            
+
           </div>
         </div>
         <div className={style.card}>
