@@ -36,7 +36,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
       >
-       <Menu op1="Home" op2="Matematica" op3={false} op4={9}/>
+       <Menu op1="Home" op2="Matematica" op3="Calculadora" op4={9}/>
         {children}
       </body>
     </html>
