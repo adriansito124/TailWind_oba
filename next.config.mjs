@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
+    images: {
+        remotePatterns: [{protocol: "https", hostname: "rickandmortyapi.com"}],
+    },
     rewrites: () =>
     {
         return [
@@ -15,6 +17,18 @@ const nextConfig = {
             {
                 source: "/funcao-reaproveitada",
                 destination: "/general-function",
+            },
+            {
+                source: "/nativo",
+                destination: "/fetch-page",
+            },
+            {
+                source: "/pagina-com-axios",
+                destination: "/axios-page",
+            },
+            {
+                source: "/pagina-server-side",
+                destination: "/server-side",
             },
         ]
     }
